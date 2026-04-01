@@ -20,14 +20,22 @@
   grid-row: 1;
 }
 
+/* Layer2 = K-fox icon: ~43 × 83 px in Figma */
 .footer__logo-icon {
-  height: 45px;
-  width: auto;
+  display: block;
+  width: 43px;
+  height: 83px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
+/* Layer1 = "izuki" wordmark: ~169 × 71 px in Figma */
 .footer__logo-text {
-  height: 37px;
-  width: auto;
+  display: block;
+  width: 169px;
+  height: 71px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 /* Tagline */
