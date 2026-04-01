@@ -2,7 +2,7 @@ import './Navbar.css';
 
 const logoIcon  = 'https://www.figma.com/api/mcp/asset/4e024152-b162-4576-836e-51044039d6f4';
 const logoText  = 'https://www.figma.com/api/mcp/asset/f9ca2eb1-8a10-404d-a4d9-81b320c5c523';
-const ctaButton = 'https://www.figma.com/api/mcp/asset/6c0c9ce9-aea5-42b3-a285-44843ffaa0a7';
+const ctaButton = 'https://www.figma.com/api/mcp/asset/4c8035c9-6d09-4fe6-b797-142c4b493f82';
 
 export default function Navbar() {
   return (
