@@ -1,8 +1,15 @@
 .faq {
   background-color: var(--charcoal);
   width: 100%;
-  padding: clamp(60px, 8vw, 149px) clamp(40px, 8vw, 512px);
+  padding: clamp(60px, 8vw, 149px) clamp(24px, 5vw, 80px);
   position: relative;
+}
+
+/* Centred column — matches the 897px FAQ list width from Figma */
+.faq__inner {
+  max-width: 897px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .faq__star {
@@ -35,7 +42,6 @@
 .faq__list {
   list-style: none;
   width: 100%;
-  max-width: 897px;
 }
 
 .faq__item {

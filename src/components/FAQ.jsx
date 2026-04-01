@@ -54,6 +54,7 @@ export default function FAQ() {
   return (
     <section className="faq">
       <img src={starIcon} alt="" className="faq__star" />
+      <div className="faq__inner">
       <h2 className="faq__label">FAQs</h2>
       <p className="faq__sublabel">Frequently Asked Questions</p>
 
@@ -70,6 +71,7 @@ export default function FAQ() {
           </li>
         ))}
       </ul>
+      </div>
     </section>
   );
 }
