@@ -9,6 +9,8 @@
   padding: 80px clamp(40px, 6vw, 100px) 80px clamp(40px, 6vw, 160px);
   position: relative;
   overflow: hidden;
+  z-index: 4;
+  margin-top: -40px;
 }
 
 .launch__heading {
