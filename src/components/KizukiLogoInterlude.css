@@ -1,0 +1,13 @@
+.logo-interlude {
+  background-color: var(--charcoal);
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-interlude__img {
+  width: clamp(200px, 25vw, 428px);
+  height: auto;
+}

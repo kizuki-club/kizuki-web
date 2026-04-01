@@ -1,0 +1,46 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(24px, 4vw, 80px);
+  background-color: var(--cream);
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  text-decoration: none;
+}
+
+.navbar__logo-icon {
+  height: 50px;
+  width: auto;
+}
+
+.navbar__logo-wordmark {
+  height: 43px;
+  width: auto;
+}
+
+.navbar__cta {
+  display: block;
+  height: 66px;
+  width: auto;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.navbar__cta img {
+  height: 100%;
+  width: auto;
+  display: block;
+}

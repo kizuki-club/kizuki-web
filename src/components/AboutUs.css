@@ -1,0 +1,26 @@
+.about {
+  background-color: var(--charcoal);
+  width: 100%;
+  padding: clamp(80px, 12vw, 231px) clamp(40px, 8vw, 238px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: clamp(32px, 5.5vw, 96px);
+  line-height: 0.96;
+  letter-spacing: -4.8px;
+  max-width: 1472px;
+  width: 100%;
+}
+
+.about__text p:first-child {
+  color: var(--cream);
+}
+
+.about__text p:not(:first-child) {
+  color: rgba(242, 238, 231, 0.4);
+}

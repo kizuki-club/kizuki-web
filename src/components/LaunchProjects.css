@@ -1,0 +1,40 @@
+.launch {
+  background-color: var(--charcoal);
+  border-radius: 40px 40px 0 0;
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 80px clamp(40px, 6vw, 100px) 80px clamp(40px, 6vw, 160px);
+  position: relative;
+  overflow: hidden;
+}
+
+.launch__heading {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 900;
+  font-size: clamp(52px, 7vw, 96px);
+  line-height: 1;
+  color: var(--cream);
+}
+
+.launch__heading .highlight {
+  color: var(--blue);
+}
+
+.launch__tagline {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: clamp(20px, 3vw, 40px);
+  color: var(--cream);
+  text-align: right;
+  letter-spacing: -1.6px;
+  align-self: flex-end;
+}
+
+.launch__tagline strong {
+  font-weight: 900;
+  color: var(--blue);
+  letter-spacing: -3.2px;
+}

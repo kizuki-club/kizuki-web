@@ -1,0 +1,87 @@
+.final-cta {
+  background-color: var(--cream);
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(60px, 10vw, 160px) 40px;
+  gap: 12px;
+  text-align: center;
+}
+
+.final-cta__heading {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 400;
+  font-size: clamp(32px, 5vw, 64px);
+  line-height: 1.1;
+  color: var(--ink);
+  max-width: 900px;
+}
+
+.final-cta__heading .highlight {
+  color: var(--orange);
+}
+
+.final-cta__subheading {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: clamp(16px, 2vw, 32px);
+  line-height: 1.3;
+  color: var(--ink);
+  max-width: 760px;
+  margin-bottom: 16px;
+}
+
+.final-cta__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 550px;
+}
+
+.final-cta__input {
+  width: 100%;
+  padding: 16px 24px;
+  border: 3.784px solid var(--orange);
+  border-radius: 30px;
+  background: transparent;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--orange);
+  outline: none;
+}
+
+.final-cta__input::placeholder {
+  color: var(--orange);
+}
+
+.final-cta__submit {
+  width: 100%;
+  padding: 16px 24px;
+  background-color: var(--orange);
+  border: none;
+  border-radius: 30px;
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--cream);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.final-cta__submit:hover {
+  opacity: 0.9;
+}
+
+.final-cta__terms {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--ink);
+  margin-top: 4px;
+}
